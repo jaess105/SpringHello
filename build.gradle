@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'org.tutorial'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/org.springframework/org.springframework.core
+    //compile group: 'org.springframework', name: 'org.springframework.core', version: '3.2.2.RELEASE'
+    // https://mvnrepository.com/artifact/org.apache.commons/com.springsource.org.apache.commons.logging
+    //compile group: 'org.apache.commons', name: 'com.springsource.org.apache.commons.logging', version: '1.1.1'
+    // https://mvnrepository.com/artifact/org.springframework/org.springframework.beans
+    //compile group: 'org.springframework', name: 'org.springframework.beans', version: '3.2.2.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context', version: '5.2.9.RELEASE'
+}
+
