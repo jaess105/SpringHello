@@ -18,5 +18,8 @@ dependencies {
     // https://mvnrepository.com/artifact/org.springframework/org.springframework.beans
     //compile group: 'org.springframework', name: 'org.springframework.beans', version: '3.2.2.RELEASE'
     compile group: 'org.springframework', name: 'spring-context', version: '5.2.9.RELEASE'
+    // https://mvnrepository.com/artifact/org.springframework/spring-jdbc
+    compile group: 'org.springframework', name: 'spring-jdbc', version: '5.2.9.RELEASE'
+
 }
 

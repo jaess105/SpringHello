@@ -1,4 +1,4 @@
-package javatpoint;
+package javatpoint.CIWithCollection;
 
 public class Student {
     private String name;

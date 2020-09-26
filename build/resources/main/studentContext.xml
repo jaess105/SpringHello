@@ -6,7 +6,7 @@
         xsi:schemaLocation="http://www.springframework.org/schema/beans  
                    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="studentbean" class="javatpoint.Student">
+    <bean id="studentbean" class="javatpoint.CIWithCollection.Student">
         <property name="name" value="Vimal Jaiswal"></property>
     </bean>
 
